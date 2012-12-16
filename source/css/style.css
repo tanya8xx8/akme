@@ -1,0 +1,264 @@
+.white {
+	color: #FFFFFF;
+}
+.more-light-blue {
+	color: #E9F2F9;
+}
+.light-blue {
+	color: #53a2d9;
+}
+.blue {
+	color: #46A5E5;
+}
+.dark-blue {
+	color: #3C8DC5;
+}
+.more-dark-blue {
+	color: #182945;
+}
+.green {
+	color: #A1C436;
+}
+html {
+	font-size:13px;
+	margin-bottom:10px;
+	font-family:Verdana, sans-serif;
+	color: #444;
+	background: url(../img/bg.png) repeat-x 0 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana,sans-serif;
+	color: #3C8DC5;
+}
+
+h1{font-size:20px;letter-spacing: -1px;}
+h2{font-size:18px;}
+h3{font-size:16px;}
+h4{font-size:12px;}
+
+.extra-links h2 {
+	border: 1px solid #53a2d9;
+	border-radius:7px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 4px 0;
+	font-size: 110%;
+}
+.extra-links {
+	text-align: center;
+}
+p {
+	font-size:13px;
+	margin-bottom:10px;
+	line-height:160%;
+	font-family:Verdana, sans-serif;
+}
+
+a {
+	color: #46A5E5;
+}
+a:hover {
+	color: #6FB7E9;
+	text-decoration: none;
+}
+#wrap {
+	width:950px;
+	margin: 0 auto;
+}
+
+#header {
+	width:960px;
+	float: left;
+}
+.logo {
+	background: url(../img/logo-inner.png) no-repeat;
+	height:250px;
+}
+.main-logo {
+	background: url(../img/logo.png) no-repeat;
+	width: 428px;
+	height: 445px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.nav-main {
+	margin: 0 auto;
+	width:694px;
+	height: 90px;
+}
+#navigation {
+	display: inline;
+	list-style: none;
+	background: url(../img/menu.png) repeat-x #3C8DC5;
+	float: left;
+	width: 684px;
+	padding: 0 5px;
+	height:42px;
+	border-radius: 7px;
+}
+#navigation a {
+	float: left;
+	color: #fff; 
+	text-decoration: none;
+	text-align: center;
+	height: 32px;
+	font-size: 14px;
+	padding:0 10px;
+	padding-top:10px;
+	margin: 0 10px;
+}
+#navigation li:hover a {
+	background: #6FB7E9;
+}
+#navigation a:hover {
+	background: #6FB7E9;
+}
+#navigation li{
+	float: left;
+	display: inline;
+	position: relative;
+}
+#navigation li>ul {
+	display: none;
+	position: absolute;
+	background: #6FB7E9;
+	top: 42px;
+	left: 10px;
+	margin: 0;
+	padding: 0;
+	width:240px;
+	border-radius: 0 0 7px 7px;
+	padding-bottom:10px;
+}
+#navigation li:hover>ul {
+	display: block;
+}
+#navigation li>ul li {
+	width:250px;
+}
+#navigation li>ul li a{
+	padding-left: 20px;
+	margin-left: -20px;
+	padding-top:10px;
+	border-bottom: 1px solid #53a2d9;
+	width:210px;
+	text-align: left;
+	margin: 0px;
+}
+#navigation li>ul li a:hover {
+	background: #53a2d9;
+}
+#navigation li>ul li{
+	display: block;
+}
+#content {
+	float: left;
+	width:960px;
+}
+.content {	
+	float: left;
+}
+.subnav {
+	background: #53a2d9;
+	color: #FBF6CE;
+	background:;
+	font-size: 14px;
+	float: left;
+	width: 234px;
+	margin: 0;
+	padding: 1px;
+	list-style: none;
+	border-radius: 7px;
+	display: block;
+}
+.subnav li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.subnav li a {
+	text-decoration: none;
+	border-radius: 7px;
+	color: #fff;
+	display: block;
+	float: left;
+	width: 219px;
+	padding-top: 11px;
+	height:31px;
+	padding-left: 15px;
+}
+.subnav li a:hover {
+	background: #fff;
+	color: #ada880;
+}
+.extra-links ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.extra-links ul li {
+	margin: 10px 0 ;
+	padding: 0;
+}
+.subnav li ol li{
+	background: url(../img/list.png) no-repeat 0 6px;
+	}
+.subnav li ol {
+	margin-top:-10px;
+	font-size: 12px;
+	float: left;
+	margin: 0 0 0 15px;
+	padding: 0;
+	width: 220px;
+}	
+.subnav li ol a {
+	float: left;	
+	width: 201px;
+	height:20px;
+	padding-top: 4px;
+}
+.subnav li ol a.last {
+	height: 50px;
+	padding-top: 4px;
+}
+#sidebar {
+	float: left;
+	width: 236px;
+	padding-right: 10px;
+}
+.block {
+	margin-top: 15px;
+	width: 236px;
+	float: left;
+}
+#main {
+	float: left;
+	width: 699px;
+	padding: 10px 0;
+	padding-left: 15px;
+}
+
+#footer {
+	font-size: 11px;
+	padding:10px 20px;
+	width: 920px;
+	float: left;
+	border-top: 2px solid #e1d9a2;
+}
+#footer .copy {
+	float: left;
+}
+#footer .navigation li {
+	display: inline;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 5;
+}
+#footer .navigation {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}

@@ -28,9 +28,12 @@ html {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Verdana,sans-serif;
+	color: #666;
+}
+h1, h2 {
+	text-align: center;
 	color: #3C8DC5;
 }
-
 h1{font-size:20px;letter-spacing: -1px;}
 h2{font-size:18px;}
 h3{font-size:16px;}
@@ -97,21 +100,22 @@ a:hover {
 	height:42px;
 	border-radius: 7px;
 }
-#navigation a {
+#navigation a, #navigation span {
 	float: left;
 	color: #fff; 
 	text-decoration: none;
 	text-align: center;
 	height: 32px;
 	font-size: 14px;
-	padding:0 10px;
+	padding:0 19px;
 	padding-top:10px;
 	margin: 0 10px;
 }
-#navigation li:hover a {
+
+#navigation li:hover a, #navigation li:hover span {
 	background: #6FB7E9;
 }
-#navigation a:hover {
+#navigation a:hover, #navigation span:hover  {
 	background: #6FB7E9;
 }
 #navigation li{
@@ -158,6 +162,40 @@ a:hover {
 }
 .content {	
 	float: left;
+	width: 693px;
+	text-align: justify;
+}
+.content img {	
+	width: 300px;
+}
+.author-image {
+	float: right;
+	display: block;
+	margin-left:20px;
+	margin-bottom:10px;
+	text-align: center;
+	font-size:110%;
+}
+.content .author-image img {
+	width:200px;
+}
+.opening-1 img {
+  width: 228px;
+}
+.opening-2 img {
+  padding: 2px;
+}
+.opening-2 img.v {
+  float: left;
+  width: 218px;
+}
+.opening-2 img.h {
+  float: left;
+  width: 251px;
+}
+.vert {
+  float: left;
+  width: 255px;
 }
 .subnav {
 	background: #53a2d9;
@@ -262,3 +300,4 @@ a:hover {
 	margin: 0px;
 	padding: 0px;
 }
+

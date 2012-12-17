@@ -6,6 +6,10 @@
   {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
   <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  
+  <script src="{{ root_url }}/js/jquery-1.7.2.min.js"></script>
+  <script src="{{ root_url }}/js/lightbox.js"></script>
+  <link href="{{ root_url }}/css/lightbox.css" rel="stylesheet" />
 
   <link href="{{ root_url }}/css/style.css" media="screen" rel="stylesheet" type="text/css">
 </head>

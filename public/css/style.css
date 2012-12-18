@@ -107,7 +107,7 @@ a:hover {
 	text-align: center;
 	height: 32px;
 	font-size: 14px;
-	padding:0 19px;
+	padding:0 18px;
 	padding-top:10px;
 	margin: 0 10px;
 }
@@ -131,7 +131,7 @@ a:hover {
 	left: 10px;
 	margin: 0;
 	padding: 0;
-	width:240px;
+	width: 250px;
 	border-radius: 0 0 7px 7px;
 	padding-bottom:10px;
 }

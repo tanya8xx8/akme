@@ -5,6 +5,7 @@ date: 2012-12-16 23:48
 comments: true
 sharing: true
 footer: true
+publications: true
 ---
 # Публикации автора
 

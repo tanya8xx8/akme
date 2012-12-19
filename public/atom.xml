@@ -2,15 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[АКМЕ]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2012-12-18T17:09:42+04:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://ling.ulstu.ru/akme/atom.xml" rel="self"/>
+  <link href="http://ling.ulstu.ru/akme/"/>
+  <updated>2012-12-20T02:20:03+04:00</updated>
+  <id>http://ling.ulstu.ru/akme/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[sitemap]]></title>
+    <link href="http://ling.ulstu.ru/akme/blog/2012/12/20/sitemap/"/>
+    <updated>2012-12-20T02:01:00+04:00</updated>
+    <id>http://ling.ulstu.ru/akme/blog/2012/12/20/sitemap</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>

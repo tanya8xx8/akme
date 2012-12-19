@@ -5,6 +5,7 @@ date: 2012-12-16 20:48
 comments: true
 sharing: true
 footer: true
+about: true
 ---
 
 # Открытие Научной школы «АКМЕ»

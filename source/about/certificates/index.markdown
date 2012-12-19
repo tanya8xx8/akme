@@ -5,7 +5,9 @@ date: 2012-12-16 23:23
 comments: true
 sharing: true
 footer: true
+about: true
 ---
+
 # Сертификаты участия
 <p align="right">
 Когда наука достигает какой-либо вершины,<br/>

@@ -5,6 +5,7 @@ date: 2012-12-16 22:59
 comments: true
 sharing: true
 footer: true
+about: true
 ---
 
 <p class="author-image"><a href="/img/about/author/2.jpg" rel="lightbox">{% img /img/about/author/2.jpg %}</a><br/><a href="/about/author/words">От автора</a></p>

@@ -3,16 +3,7 @@
 <body>
   <div id="wrap">
     <div id="content">
-      <div id="sidebar">
-        <div class="logo block"></div>
-      </div>
-      <div id="main">
-        <div class="header">
-
-          {% include navigation.html %}
-        </div>
-        {{ content | expand_urls: root_url }}
-      </div>
+      {{ content | expand_urls: root_url }}
     </div>
 
     {% include footer.html %}

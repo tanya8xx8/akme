@@ -1,6 +1,32 @@
 ---
 layout: default
 ---
-<div class="content">
-  {{ content }}
-</div>
+  <div id="sidebar">
+    <div class="logo block"></div>
+    {% include asides/search.html %}
+
+    {% if page.about %}
+      {% include asides/about.html %}
+    {% endif %}
+
+    {% if page.science %}
+      {% include asides/science.html %}
+    {% endif %}
+
+    {% if page.publications %}
+      {% include asides/publications.html %}
+    {% endif %}
+
+    {% include asides/form.html %}
+  </div>
+  <div id="main">
+    <div class="header">
+
+      {% include navigation.html %}
+    </div>    
+
+  	<div class="content">
+  	  {{ content }}
+  	</div>
+
+  </div>

@@ -5,6 +5,7 @@ date: 2012-12-17 22:45
 comments: true
 sharing: true
 footer: true
+about: true
 ---
 # ПОЛОЖЕНИЕ ОБ АВТОРСКОЙ НАУЧНОЙ ШКОЛЕ ПЕДАГОГОВ «АКМЕ»
 

@@ -25,6 +25,7 @@ html {
 	font-family:Verdana, sans-serif;
 	color: #444;
 	background: url(../img/bg.png) repeat-x 0 100%;
+	min-height: 800px;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Verdana,sans-serif;
@@ -39,25 +40,11 @@ h2{font-size:18px;}
 h3{font-size:16px;}
 h4{font-size:12px;}
 
-.extra-links h2 {
-	border: 1px solid #53a2d9;
-	border-radius:7px;
-	font-weight: normal;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 4px 0;
-	font-size: 110%;
-}
-.extra-links {
-	text-align: center;
-}
 p {
-	font-size:13px;
 	margin-bottom:10px;
 	line-height:160%;
 	font-family:Verdana, sans-serif;
 }
-
 a {
 	color: #46A5E5;
 }
@@ -111,12 +98,14 @@ a:hover {
 	padding-top:10px;
 	margin: 0 10px;
 }
-
-#navigation li:hover a, #navigation li:hover span {
+#navigation li:hover a, #navigation li:hover span, {
 	background: #6FB7E9;
 }
-#navigation a:hover, #navigation span:hover  {
+#navigation a:hover, #navigation a.current, #navigation span:hover  {
 	background: #6FB7E9;
+}
+#navigation a.current {
+  background: #6FB7E9
 }
 #navigation li{
 	float: left;
@@ -228,9 +217,21 @@ a:hover {
 	height:31px;
 	padding-left: 15px;
 }
-.subnav li a:hover {
-	background: #fff;
-	color: #ada880;
+.subnav li a:hover, .subnav li a.current {
+	background: #6FB7E9;
+	color: #fff;
+}
+.extra-links h2 {
+	border: 1px solid #53a2d9;
+	border-radius:7px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 4px 0;
+	font-size: 110%;
+}
+.extra-links {
+	text-align: center;
 }
 .extra-links ul {
 	list-style: none;
@@ -246,7 +247,6 @@ a:hover {
 	}
 .subnav li ol {
 	margin-top:-10px;
-	font-size: 12px;
 	float: left;
 	margin: 0 0 0 15px;
 	padding: 0;
@@ -271,6 +271,18 @@ a:hover {
 	margin-top: 15px;
 	width: 236px;
 	float: left;
+	margin-bottom: 24px;
+}
+
+.block.extra-links input[type=text], .block.extra-links textarea{
+	border: 1px solid #53a2d9;
+	width: 90%;
+	height: 20px;
+	margin: 5px 0;
+	padding: 2px 3px;
+}
+.block.extra-links textarea {
+	height: 60px;
 }
 #main {
 	float: left;
@@ -280,11 +292,27 @@ a:hover {
 }
 
 #footer {
+	margin-top: 20px;
 	font-size: 11px;
 	padding:10px 20px;
 	width: 920px;
 	float: left;
 	border-top: 2px solid #e1d9a2;
+}
+#sponsors {
+	float: left;
+	border-top: 1px solid #efefef;
+}
+#sponsors ul {
+	list-style: none;
+}
+#sponsors ul li {
+	float: left;
+	width: 280px;
+	text-align:center;
+	list-style: none;
+	height: 40px;
+	padding: 10px;
 }
 #footer .copy {
 	float: left;

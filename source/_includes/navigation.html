@@ -1,31 +1,31 @@
 			<ul id="navigation">
 				<li>
-					<span>О школе</span>
+					{% link /about/ О школе %}
 					<ul>
-						<li><a href="/about/opening">Открытие школы</a></li>
-						<li><a href="/about/philosophy">Положения о школе</a></li>
-						<li><a href="/about/rules">Заповеди</a></li>
-						<li><a href="/about/author">Автор и руководитель</a></li>
-						<!--li><a href="/about/author">Автор и руководитель</a></li-->
-						<li><a href="/about/certificates">Сертификаты</a></li>
+						<li>{% link /about/opening/ Открытие школы %}</li>
+						<li>{% link /about/philosophy/ Положения о школе %}</li>
+						<li>{% link /about/rules/ Заповеди %}</li>
+						<li>{% link /about/author/ Автор и руководитель %}</li>
+						<li>{% link /about/certificates/ Сертификаты %}</li>
 					</ul>
 				</li>
-				<li><a href="/members/">Члены</a></li>
+				<li>{% link /members/ Члены %}</li>
 				<li>
-					<a href="/science/">Научная деятельность</a>
+					{% link /science/ Научная деятельность %}
 					<ul>
-						<li><a href="">Защиты диссертаций</a></li>
-						<li><a href="">Конференции</a></li>
-						<li><a href="">Семинары</a></li>
+						<li>{% link /science/degree/ Защиты диссертаций %}</li>
+						<li>{% link /science/conference/ Конференции %}</li>
+						<li>{% link /science/meetengs/ Семинары %}</li>
 					</ul>
 				</li>
 				<li>
-					<span>Публикации</span>
+        		  {% link /publications/ Публикации %}
 					<ul>
-						<li><a href="/publications/author">Вестник "АКМЕ"</a></li>
-						<li><a href="/publications/school">Публикации автора</a></li>
-						<li><a href="/publications/vestnik">Публикации участников</a></li>
+						<li>{% link /publications/vestnik/ Вестник "АКМЕ" %}</li>
+						<li>{% link /publications/author/ Публикации автора %}</li>
+						<li>{% link /publications/members/ Публикации участников %}</li>
+						<li>{% link /publications/school/ О школе %}</li>
 					</ul>
 				</li>
-				<li><a href="/contacts/">Контакты</a></li>
+				<li>{% link /contacts/ Контакты %}</li>
 			</ul>

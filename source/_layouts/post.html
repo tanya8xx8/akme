@@ -2,6 +2,23 @@
 layout: default
 single: true
 ---
-<div class="content">
-  {{ content }}
+<div id="sidebar">
+    <div class="logo block"></div>
+    {% if site.page_asides.size %}
+      {% include_array page_asides %}
+    {% else %}
+      {% include_array default_asides %}
+    {% endif %}
+  </div>
+  <div id="main">
+    <div class="header">
+
+      {% include navigation.html %}
+    </div>    
+
+	<div class="content">
+	  {{ content }}
+	</div>
+
+  </div>
 </div>

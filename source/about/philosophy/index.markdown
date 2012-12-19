@@ -18,4 +18,4 @@ about: true
 
 ### [3. Организация научно-образовательной и научно-исследовательской деятельности](/about/philosophy/actions)
 
-<p align="center"><a href="/img/about/phil/3.jpg" rel="lightbox">{% img /img/about/phil/3.jpg %}</a> <a href="/img/about/phil/4.jpg" rel="lightbox">{% img /img/about/phil/4.jpg %}</a><a href="/img/about/phil/1.jpg" rel="lightbox">{% img /img/about/phil/1.jpg %}</a> <a href="/img/about/phil/2.jpg" rel="lightbox">{% img /img/about/phil/2.jpg %}</a></p>
+<p align="center"><a href="/img/about/phil/3.jpg" rel="lightbox">{% img /img/about/phil/3s.jpg %}</a> <a href="/img/about/phil/4.jpg" rel="lightbox">{% img /img/about/phil/4s.jpg %}</a><a href="/img/about/phil/1.jpg" rel="lightbox">{% img /img/about/phil/1s.jpg %}</a> <a href="/img/about/phil/2.jpg" rel="lightbox">{% img /img/about/phil/2s.jpg %}</a></p>

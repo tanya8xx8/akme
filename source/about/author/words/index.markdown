@@ -5,6 +5,7 @@ date: 2012-12-16 22:59
 comments: true
 sharing: true
 footer: true
+about: true
 ---
 
 # От автора  Научной школы педагогов «Акме»

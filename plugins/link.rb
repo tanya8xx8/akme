@@ -2,20 +2,41 @@
 # Title: Simple Image tag for Jekyll
 # Authors: Brandon Mathis http://brandonmathis.com
 #          Felix Schäfer, Frederic Hemberger
-# Description: Easily output images with optional class names, width, height, title and alt attributes
+# Description: This is a Jekyll plugin that generates links with additional classes if link href attribute is a part of a path of the current page.
 #
-# Syntax {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | "title text" ["alt text"]] %}
+# Syntax {% link "link_href" "Link Name" %}
 #
 # Examples:
-# {% img /images/ninja.png Ninja Attack! %}
-# {% img left half http://site.com/images/ninja.png Ninja Attack! %}
-# {% img left half http://site.com/images/ninja.png 150 150 "Ninja Attack!" "Ninja in attack posture" %}
+# {% link /contacts/ Contacts %}
 #
-# Output:
-# <img src="/images/ninja.png">
-# <img class="left half" src="http://site.com/images/ninja.png" title="Ninja Attack!" alt="Ninja Attack!">
-# <img class="left half" src="http://site.com/images/ninja.png" width="150" height="150" title="Ninja Attack!" alt="Ninja in attack posture">
+# Output on any page except contacts:
+# <a href="/contacts/">Contacts</a>
 #
+# Output onthe contacts page:
+# <a href="/contacts/" class="current">Contacts</a>
+#
+# Parent links will be marked with current class too.
+# For example we have to pages /about and subpage /about/author and template like this:
+# 
+# <ul>
+#   <li>
+#     {% link /about/ About %}
+#     <ul>
+#       <li>{% link /about/author Author %}
+#     </ul>
+#   </li>
+# </ul>
+# 
+# On the /about/author all links will be generated as this:
+#
+# <ul>
+#   <li>
+#     <a href="/about/" class="current">About</a>
+#     <ul>
+#       <li><a href="/about/author" class="current">Author</a>
+#     </ul>
+#   </li>
+# </ul>
 
 module Jekyll
 

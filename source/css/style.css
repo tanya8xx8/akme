@@ -157,6 +157,16 @@ a:hover {
 .content img {	
 	width: 300px;
 }
+.content .vestnik {
+	width: 100%;
+}
+.content .vestnik td {
+	text-align: center;
+	padding-bottom:20px;
+}
+.content .vestnik img {
+	width: auto;
+}
 .author-image {
 	float: right;
 	display: block;

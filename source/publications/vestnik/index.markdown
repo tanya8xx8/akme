@@ -10,21 +10,29 @@ publications: true
 
 # Вестник научной школы педагогов «акме»
 
-<table>
+<table class="vestnik">
 	<tr>
 		<td>
-			<a href="/img/vestnik/1/Vypusk_1.jpg" rel="lightbox">{% img /img/vestnik/1/Vypusk_1.jpg %}</a>
+			{% img /img/vestnik/1/Vypusk_1.jpg %}
+			<br />
+			{% link /publications/vestnik/first/ Выпуск 1 (2007) %}
 		</td>
 		<td>
-			<a href="/img/vestnik/2/Vypusk_2.jpg" rel="lightbox">{% img /img/vestnik/2/Vypusk_2.jpg %}</a>
+			{% img /img/vestnik/2/Vypusk_2.jpg %}
+			<br />
+			{% link /publications/vestnik/second/ Выпуск 2 (2008) %}
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="/img/vestnik/3/Vypusk_3.jpg" rel="lightbox">{% img /img/vestnik/3/Vypusk_3.jpg %}</a>
+			{% img /img/vestnik/3/Vypusk_3.jpg %}
+			<br />
+			{% link /publications/vestnik/third/ Выпуск 3 (2009) %}
 		</td>
 		<td>
-			<a href="/img/vestnik/4/Vypusk_4.jpg" rel="lightbox">{% img /img/vestnik/4/Vypusk_4.jpg %}</a>	
+			{% img /img/vestnik/4/Vypusk_4.jpg %}
+			<br />
+			{% link /publications/vestnik/fourth/ Выпуск 4 (2010) %}
 		</td>
 	</tr>
 </table>

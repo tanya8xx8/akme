@@ -20,11 +20,11 @@
 	color: #A1C436;
 }
 html {
-	font-size:13px;
+	font-size: 14px;
 	margin-bottom:10px;
 	font-family:Verdana, sans-serif;
 	color: #444;
-	background: url(../img/bg.png) repeat-x 0 100%;
+	background: #f4f6f9 url(../img/bg.png) repeat-x 0 100%;
 	min-height: 800px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -149,6 +149,15 @@ a:hover {
 	float: left;
 	width:960px;
 }
+.content .sign img {
+	float: left;
+	width: 100px;
+	margin: 0;
+}
+.sign {
+	width: 100%;
+	text-align: right;
+}
 .content {	
 	float: left;
 	width: 693px;
@@ -156,6 +165,7 @@ a:hover {
 }
 .content img {	
 	width: 300px;
+	margin: 4px;
 }
 .content .vestnik {
 	width: 100%;
@@ -232,7 +242,6 @@ a:hover {
 	color: #fff;
 }
 .extra-links h2 {
-	border: 1px solid #53a2d9;
 	border-radius:7px;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -291,6 +300,14 @@ a:hover {
 	margin: 5px 0;
 	padding: 2px 3px;
 }
+.block.extra-links input[type=submit] {
+	border: 1px solid #53a2d9;
+	color: #fff;
+	background: #53a2d9;
+	border-radius: 5px;
+	padding: 4px 6px;
+	cursor: pointer;
+}
 .block.extra-links textarea {
 	height: 60px;
 }
@@ -311,7 +328,7 @@ a:hover {
 }
 #sponsors {
 	float: left;
-	border-top: 1px solid #efefef;
+	border-top: 1px solid #dfdfdf;
 }
 #sponsors ul {
 	list-style: none;

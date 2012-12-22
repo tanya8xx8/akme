@@ -18,3 +18,5 @@ about: true
 ### 7. Дети готовы сами за нами идти, если мы выбираем  разнообразные пути.
 ### 8. Успех вас настигнет лишь в случае том, если вы трудитесь в деле своем.
 ### 9. Терпенье, наука, учительский труд путь к сердцу любого ребенка найдут.
+
+<a href="/img/zap/1.jpg" rel="lightbox">{% img /img/zap/1.jpg %}</a><a href="/img/zap/3.jpg" rel="lightbox">{% img /img/zap/3.jpg %}</a><a href="/img/zap/2.jpg" rel="lightbox">{% img /img/zap/2.jpg %}</a><a href="/img/zap/4.jpg" rel="lightbox">{% img /img/zap/4.jpg %}</a>

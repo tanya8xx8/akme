@@ -167,6 +167,10 @@ a:hover {
 	width: 300px;
 	margin: 4px;
 }
+.content img.member {
+  width: 133px;
+  margin-left: 15px;
+}
 .content .vestnik {
 	width: 100%;
 }
